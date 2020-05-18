@@ -57,7 +57,7 @@
 	</tx:advice>
 
 	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-		<property name="basePackage" value="cn.itrip.dao"/>
+		<property name="basePackage" value="cn.itrip.mapper"/>
 	</bean>
 	<!--redis 配置 开始-->
 	<bean id="jedisPoolConfig" class="redis.clients.jedis.JedisPoolConfig">

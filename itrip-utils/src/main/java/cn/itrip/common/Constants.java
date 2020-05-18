@@ -11,5 +11,5 @@ public class Constants {
     public static final Integer DEFAULT_PAGE_SIZE = 10;
 
     //手机注册验证码前缀
-    public static final String POHONE_SMS_ACTIVE_PREFIX="activation:";
+    public static final String PHONE_SMS_ACTIVE_PREFIX="activation:";
 }
