@@ -68,6 +68,17 @@
             <artifactId>java-sms-sdk</artifactId>
             <version>1.0.1</version>
         </dependency>
+
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+        </dependency>
+        <!--http客户端解析工具-->
+        <dependency>
+            <groupId>com.moilioncircle</groupId>
+            <artifactId>user-agent-utils</artifactId>
+            <version>1.50</version>
+        </dependency>
     </dependencies>
 
 

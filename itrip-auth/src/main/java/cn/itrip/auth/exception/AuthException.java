@@ -1,4 +1,4 @@
-package cn.itrip.auth;
+package cn.itrip.auth.exception;
 
 /**
  * description:
