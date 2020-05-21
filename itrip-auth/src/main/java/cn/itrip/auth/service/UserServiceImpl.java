@@ -86,4 +86,14 @@ public class UserServiceImpl implements UserService {
         itripUserMapper.deleteItripUserById(itripUser.getId());
         return false;
     }
+
+    /**
+     * 更新用户
+     * @param user
+     * @throws Exception
+     */
+    @Override
+    public void updateItripUser(ItripUser user) throws Exception {
+        itripUserMapper.updateItripUser(user);
+    }
 }

@@ -11,4 +11,6 @@ public interface UserService  {
     void itriptxCreateItripUser(ItripUser itripUser)throws Exception;
 
     Boolean itriptxValidateSmsCode(String userCode, String smsCode)throws Exception;
+
+    void updateItripUser(ItripUser user)throws Exception;
 }
