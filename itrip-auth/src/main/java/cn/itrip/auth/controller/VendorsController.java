@@ -81,6 +81,7 @@ public class VendorsController {
             itripUser.setUserCode(openid);
 //        itripUser.setFlatID(openid);//微信给的是个字符串，我们需要的是Long
             itripUser.setUserType(1);
+            itripUser.setActivated(1);
             itripUser.setCreationDate(new Date());
             userService.itriptxCreateItripUser(itripUser);
         }
